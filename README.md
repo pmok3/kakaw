@@ -13,7 +13,7 @@ In the 2022-2023 regular season, the Western Conference had an unparalleled leve
 The idea that Kakaw! plans to capitalize on therefore, are these scoring runs. Sports betting sites such as DraftKings and FanDuel act as market makers and are thus forced to stay directionally neutral to maintain a low risk profile. This means that their source of income is commissions - also known as the vig - and odds are thus determined by the consensus of human bettors. This presents an opportunity to see if the Kakaw! model can be viable. 
 
 ## Overview of components
-The below briefly describes the main components of Kakaw!. As the project progresses, I will include more technical details about each component in its own dedicated section below.
+The section below briefly describes the main components of Kakaw!. As the project progresses, I will include more technical details about each component in its own dedicated section.
 
 ### Sourcing historical game data (To be completed)
 A web scraper will be used to collect play by play data from ESPN's historical archive. Once completed, this will be integrated into github actions and run at midnight every day to collect new game data during the NBA season.
