@@ -28,8 +28,11 @@ A web scraper will be used to collect live betting odds data from bodog.eu. The 
 ### Semi-supervised machine learning model (To be completed)
 Using a small sample of live odds data collected during the 2023-2024 NBA season, historical game data will be annotated with projected odds. This will provide greater confluence with backtesting new strategies.
 
+### Real-Time Game Screener (To be completed)
+Once the above components are completed and a profitable betting strategy is established, a game screener will be created that takes into consideration present and past data from current games and betting data. The screener will have API endpoints that connect with lightweight programs on desktop and mobile platforms. 
+
 ### Notification system (To be completed)
-Once the above components are completed and a profitable betting strategy is established, a notification system will be created that leverages live real time game and betting data to notify users of a potential betting opportunity. The design of this system will focus on servicing a large number of users and achieving low latency. For desktop users, this will take the form of a web extension. For mobile users, this will take the form of a mobile app. 
+A notification system will be created that leverages the real-time game screener to alert users of potential betting opportunities. The design of this system will focus on servicing a large number of users and achieving low latency. For desktop users, this will take the form of a web extension. For mobile users, this will take the form of a mobile app. 
 
 ### Infrastructure (To be implemented)
 Github will serve as the main code repository. Github actions will be utilized for unit testing and historical data collection. The real-time program will initially be run locally on a spare laptop. If the project is proven to be worthwhile, I will look into hosting it on AWS.
