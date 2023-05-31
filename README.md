@@ -19,11 +19,14 @@ The section below briefly describes the main components of Kakaw!. As the projec
 ### Sourcing historical game data (To be completed)
 A web scraper will be used to collect play by play data from ESPN's historical archive. Once completed, this will be integrated into github actions and run at midnight every day to collect new game data during the NBA season.
 
+### Sourcing historical odds data (To be completed)
+A web scraper will be used to collect historical moneyline odds from the OddsPortal archive. These odds are recorded at tip off and represent an average of the lines offered by major betting sites.
+
 ### Backtesting engine for bet criterion development (To be completed)
 An engine will be created that applies user-specified criterion to historical game data and reports statistical information to the user.
 
 ### Sourcing live betting odds data (To be completed)
-A web scraper will be used to collect live betting odds data from bodog.eu. The target for completion is September 2023.
+A web scraper will be used to collect live betting odds data from bodog.eu.
 
 ### Semi-supervised machine learning model (To be completed)
 Using a small sample of live odds data collected during the 2023-2024 NBA season, historical game data will be annotated with projected odds. This will provide greater confluence with backtesting new strategies.
