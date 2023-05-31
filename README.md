@@ -20,7 +20,7 @@ The section below briefly describes the main components of Kakaw!. As the projec
 A web scraper will be used to collect play by play data from ESPN's historical archive. Once completed, this will be integrated into github actions and run at midnight every day to collect new game data during the NBA season.
 
 ### Sourcing historical odds data (To be completed)
-A web scraper will be used to collect historical moneyline odds from the OddsPortal archive. These odds are recorded at tip off and represent an average of the lines offered by major betting sites.
+A web scraper will be used to collect historical moneyline odds from the OddsPortal archive. These odds are recorded before tip off and represent an average of the lines offered by major betting sites.
 
 ### Backtesting engine for bet criterion development (To be completed)
 An engine will be created that applies user-specified criterion to historical game data and reports statistical information to the user.
